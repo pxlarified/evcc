@@ -106,7 +106,7 @@ func ConfigureSponsorship(token string) error {
 		var err error
 		if token, err = checkPulsares(); token == "" || err != nil {
 			if err == nil {
-				Subject = "self-hosted"
+				Subject = "Jan Kramer"
 			}
 			return err
 		}
